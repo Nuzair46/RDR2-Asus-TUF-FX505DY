@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rage__fwuiSystemSettingsCollection>
+  <version value="37" />
+  <configSource>kSettingsConfig_Safe</configSource>
+  <graphics>
+    <tessellation>kSettingLevel_Ultra</tessellation>
+    <shadowQuality>kSettingLevel_High</shadowQuality>
+    <farShadowQuality>kSettingLevel_High</farShadowQuality>
+    <reflectionQuality>kSettingLevel_Low</reflectionQuality>
+    <mirrorQuality>kSettingLevel_High</mirrorQuality>
+    <ssao>kSettingLevel_Medium</ssao>
+    <textureQuality>kSettingLevel_Ultra</textureQuality>
+    <particleQuality>kSettingLevel_Ultra</particleQuality>
+    <waterQuality>kSettingLevel_Custom</waterQuality>
+    <volumetricsQuality>kSettingLevel_Custom</volumetricsQuality>
+    <lightingQuality>kSettingLevel_Medium</lightingQuality>
+    <ambientLightingQuality>kSettingLevel_High</ambientLightingQuality>
+    <anisotropicFiltering value="3" />
+    <taa>kSettingLevel_Medium</taa>
+    <fxaaEnabled value="false" />
+    <msaa value="0" />
+    <graphicsQualityPreset value="0.000000" />
+  </graphics>
+  <advancedGraphics>
+    <API>kSettingAPI_DX12</API>
+    <locked value="false" />
+    <asyncComputeEnabled value="false" />
+    <transferQueuesEnabled value="true" />
+    <shadowSoftShadows>kSettingLevel_Low</shadowSoftShadows>
+    <motionBlur value="false" />
+    <motionBlurLimit value="16.000000" />
+    <particleLightingQuality>kSettingLevel_High</particleLightingQuality>
+    <waterReflectionSSR value="true" />
+    <waterRefractionQuality>kSettingLevel_Low</waterRefractionQuality>
+    <waterReflectionQuality>kSettingLevel_High</waterReflectionQuality>
+    <waterSimulationQuality value="2" />
+    <waterLightingQuality>kSettingLevel_High</waterLightingQuality>
+    <furDisplayQuality>kSettingLevel_Medium</furDisplayQuality>
+    <maxTexUpgradesPerFrame value="5" />
+    <shadowGrassShadows>kSettingLevel_Low</shadowGrassShadows>
+    <shadowParticleShadows value="false" />
+    <shadowLongShadows value="true" />
+    <directionalShadowsAlpha value="false" />
+    <worldHeightShadowQuality value="0.660000" />
+    <directionalScreenSpaceShadowQuality value="0.660000" />
+    <ambientMaskVolumesHighPrecision value="false" />
+    <scatteringVolumeQuality>kSettingLevel_Low</scatteringVolumeQuality>
+    <volumetricsRaymarchQuality>kSettingLevel_Low</volumetricsRaymarchQuality>
+    <volumetricsLightingQuality>kSettingLevel_Medium</volumetricsLightingQuality>
+    <volumetricsRaymarchResolutionUnclamped value="true" />
+    <terrainShadowQuality>kSettingLevel_High</terrainShadowQuality>
+    <damageModelsDisabled value="false" />
+    <decalQuality>kSettingLevel_Medium</decalQuality>
+    <ssaoFullScreenEnabled value="false" />
+    <ssaoType value="0" />
+    <ssdoSampleCount value="4" />
+    <ssdoUseDualRadii value="false" />
+    <ssdoResolution>kSettingLevel_Low</ssdoResolution>
+    <ssdoTAABlendEnabled value="true" />
+    <ssroSampleCount value="2" />
+    <snowGlints value="true" />
+    <POMQuality>kSettingLevel_Ultra</POMQuality>
+    <probeRelightEveryFrame value="false" />
+    <scalingMode>kSettingScale_Mode4o5</scalingMode>
+    <reflectionMSAA value="0" />
+    <lodScale value="0.850000" />
+    <grassLod value="1.250000" />
+    <pedLodBias value="0.000000" />
+    <vehicleLodBias value="0.000000" />
+    <sharpenIntensity value="1.000000" />
+    <treeQuality>kSettingLevel_High</treeQuality>
+    <deepsurfaceQuality>kSettingLevel_Low</deepsurfaceQuality>
+    <treeTessellationEnabled value="false" />
+  </advancedGraphics>
+  <video>
+    <adapterIndex value="0" />
+    <outputIndex value="0" />
+    <resolutionIndex value="5" />
+    <screenWidth value="1920" />
+    <screenHeight value="1080" />
+    <refreshRateIndex value="1" />
+    <refreshRateNumerator value="60" />
+    <refreshRateDenominator value="1" />
+    <windowed value="0" />
+    <vSync value="0" />
+    <tripleBuffered value="false" />
+    <pauseOnFocusLoss value="false" />
+    <constrainMousePointer value="false" />
+  </video>
+  <videoCardDescription>Radeon RX 560X</videoCardDescription>
+</rage__fwuiSystemSettingsCollection>
