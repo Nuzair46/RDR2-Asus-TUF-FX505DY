@@ -8,7 +8,7 @@
 * Storage: 120GB SSD, 1TB HDD (Game on HDD)  
 
 ### Installation
-* Copy the `system.xml`  file to "C:\Users\{username}\Documents\Rockstar Games\Red Dead Redemption 2\Settings\" and replace the existing file.  
+* Copy the `system.xml`  file to "C:\Users\\{username}\Documents\Rockstar Games\Red Dead Redemption 2\Settings\" and replace the existing file.  
 
 ### AIM
 * To get 30fps with the best visual quality possible with Ultra Textures.    
