@@ -13,7 +13,8 @@
 ### AIM
 * To get 30fps with the best visual quality possible with Ultra Textures.    
 
-#### Note:
+#### Note:  
+* The Ingame Benchmark will still show drops in FPS to 23-24 at Saint Denis police chase part.
 * If Vulkan API doesn't give a crash for you, try using it to see if it gives better fps.
 * The API I used for my setting is DX12, as Vulkan crashes my game at launch.  
   If anyone know any fix, Please let me know at the issues section.
@@ -31,15 +32,15 @@
   You can increase the Resolution scale to 90%, will greatly impact performance for a very small visual quality.  
 * Reflection Quality is LOW as it greatly impacts performance and you dont see any reflective surface ingame anyway other than building windows.
   This doesn't affect water quality. It is set to High.
-* Everything else that doesn't impact the games visual quality, but takes up GPU performance is set to low or OFF.
+* Everything else that doesn't impact the games visual quality, but takes up GPU performance is set to low or OFF.  
+* set Vsync Half to get a stable 30FPS.  
 
 ### What you can do?
 * You can REDUCE the Following settings for better FPS with reduced quality as increasing anything doesn't do any good.
 	* Resolution or Resolution scale. (Visually BAD, but huge performance gain)  
 	* Texture Quality to High. (Visually OK, very little performance gain)  
 	* SSAO (Visually BAD, Very little performance gain)  
-	* Tessellation (Visually BAD, Very little performance gain) 
-* set Vsync Half to get a stable 30FPS. 
+	* Tessellation (Visually BAD, Very little performance gain)  
 
 ### Other Settings 
 * In Radeon settings (update to the latest), change this following settings in advanced global settings:
