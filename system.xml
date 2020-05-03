@@ -33,7 +33,7 @@
     <particleLightingQuality>kSettingLevel_High</particleLightingQuality>
     <waterReflectionSSR value="true" />
     <waterRefractionQuality>kSettingLevel_Low</waterRefractionQuality>
-    <waterReflectionQuality>kSettingLevel_High</waterReflectionQuality>
+    <waterReflectionQuality>kSettingLevel_Medium</waterReflectionQuality>
     <waterSimulationQuality value="2" />
     <waterLightingQuality>kSettingLevel_High</waterLightingQuality>
     <furDisplayQuality>kSettingLevel_Medium</furDisplayQuality>
@@ -83,7 +83,7 @@
     <refreshRateNumerator value="60" />
     <refreshRateDenominator value="1" />
     <windowed value="0" />
-    <vSync value="0" />
+    <vSync value="2" />
     <tripleBuffered value="false" />
     <pauseOnFocusLoss value="false" />
     <constrainMousePointer value="false" />
