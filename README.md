@@ -19,6 +19,10 @@
 * The API I used for my setting is DX12, as Vulkan crashes my game at launch.  
   If anyone know any fix, Please let me know at the issues section.
 * Setting can also be used for systems with similar specs like Acer Nitro.  
+* I would recommend to keep the Vsync to half. Reasons:  
+  * Enabling Half Vsync gives a stable 30FPS which is pretty better than having a variable fps from 30-40.  
+    Game will always look smoother when vsync is half.
+  * It also saves power and also reduces GPU temprature. Which will give us head room for overclocking the GPU.
 
 ### What I Did?
 * Went to Saint Denis (The Most GPU Hungry Location in RDR2).  
@@ -43,11 +47,18 @@
 	* Tessellation (Visually BAD, Very little performance gain)  
 
 ### Other Settings 
-* In Radeon settings (update to the latest), change this following settings in advanced global settings:
+* In Radeon settings (update to the latest), change this following settings:
+	* Radeon Anti-Lag : Off  
+	* Radeon Enchanced Sync: Disabled
+	* Wait for vertical refresh : Always Off
 	* Anti-Aliasing : Use Application Settings
+	* Anti-Aliasing Method : Multisampling
+	* Morphological Anti-Aliasing : Disabled
 	* Texture Filtering Quality : Performance
 	* Tessellation Mode : AMD Optimized
-* Overclock GPU if you want to.
+	* Reset Shader Cache.
+* Overclock GPU. Use [this](https://youtu.be/y_aTt1zKYLw) guide. Increases atleast 7FPS
+* Increase CPU TDP (Optional) with [this](https://youtu.be/4ekZRwxFFGU) guide. Didn't see any huge change on my ryzen 3550h, as it is powerfull enough for RDR2 without any bottleneck.
 
 ### Additional FPS Boost  
 * Turn OFF windows Game Bar and Game Mode and all video recording settings.  
