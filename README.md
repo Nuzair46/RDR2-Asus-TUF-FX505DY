@@ -48,3 +48,7 @@
 	* Texture Filtering Quality : Performance
 	* Tessellation Mode : AMD Optimized
 * Overclock GPU if you want to.
+
+### Additional FPS Boost  
+* Turn OFF windows Game Bar and Game Mode and all video recording settings.  
+* If using Discord or Spotify in the background, disable Hardware accelaration in their settings.
