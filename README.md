@@ -40,11 +40,16 @@
 * set Vsync Half to get a stable 30FPS.  
 
 ### What you can do?
-* You can REDUCE the Following settings for better FPS with reduced quality as increasing anything doesn't do any good.
+* You can REDUCE the Following settings for better FPS with reduced quality.
 	* Resolution or Resolution scale. (Visually BAD, but huge performance gain)  
 	* Texture Quality to High. (Visually OK, very little performance gain)  
 	* SSAO (Visually BAD, Very little performance gain)  
 	* Tessellation (Visually BAD, Very little performance gain)  
+* You can INCREASE the following settings for a little performance impact (Only do this if you are overclocking):
+	* Water Reflection : High (5FPS lost, but doesn't matter in forrest as there is 40+ FPS and in city there is no huge water)
+	* SSAO : High/Ultra (Min Fps lost, but doesn't have any noticable visual change)
+	* Anisotrphic Filtering : x16 (Min Fps lost, but doesn't have any noticable visual change)
+	* Soft Shadows : Medium/High (Personal preference, as it makes the shadows too blurry and low quality. Affect 3FPS.)  
 
 ### Other Settings 
 * In Radeon settings (update to the latest), change this following settings:
