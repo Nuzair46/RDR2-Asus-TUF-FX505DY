@@ -49,7 +49,9 @@
 	* Water Reflection : High (5FPS lost, but doesn't matter in forrest as there is 40+ FPS and in city there is no huge water)
 	* SSAO : High/Ultra (Min Fps lost, but doesn't have any noticable visual change)
 	* Anisotrphic Filtering : x16 (Min Fps lost, but doesn't have any noticable visual change)
-	* Soft Shadows : Medium/High (Personal preference, as it makes the shadows too blurry and low quality. Affect 3FPS.)  
+	* Soft Shadows : Medium/High (Personal preference, as it makes the shadows too blurry and low quality. Affect 3FPS.) 
+	* Resolution Scale : Off/90% (high FPS impact but for only good visual clarity)  
+	  * Other best option is to set resolution scale to 80% and increasing Radeon Sharpening to 100% in Radeon Settings (No Performance impact but visually good).
 
 ### Other Settings 
 * In Radeon settings (update to the latest), change this following settings:
