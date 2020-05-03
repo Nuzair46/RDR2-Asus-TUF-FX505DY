@@ -51,7 +51,7 @@
     <volumetricsRaymarchResolutionUnclamped value="true" />
     <terrainShadowQuality>kSettingLevel_High</terrainShadowQuality>
     <damageModelsDisabled value="false" />
-    <decalQuality>kSettingLevel_Medium</decalQuality>
+    <decalQuality>kSettingLevel_High</decalQuality>
     <ssaoFullScreenEnabled value="false" />
     <ssaoType value="0" />
     <ssdoSampleCount value="4" />
@@ -64,8 +64,8 @@
     <probeRelightEveryFrame value="false" />
     <scalingMode>kSettingScale_Mode4o5</scalingMode>
     <reflectionMSAA value="0" />
-    <lodScale value="0.850000" />
-    <grassLod value="1.250000" />
+    <lodScale value="0.900000" />
+    <grassLod value="1.500000" />
     <pedLodBias value="0.000000" />
     <vehicleLodBias value="0.000000" />
     <sharpenIntensity value="1.000000" />
