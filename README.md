@@ -1,4 +1,4 @@
-## Red Dead Redemption 2  
+## Red Dead Redemption 2 Vulkan API  
 ### Asus TUF FX505DY 30fps with best quality settings.
 
 #### My Specs:  
@@ -14,10 +14,7 @@
 * To get 30fps with the best visual quality possible with Ultra Textures.    
 
 #### Note:  
-* The Ingame Benchmark will still show drops in FPS to 23-24 at Saint Denis police chase part.
-* If Vulkan API doesn't give a crash for you, try using it to see if it gives better fps.
-* The API I used for my setting is DX12, as Vulkan crashes my game at launch.  
-  If anyone know any fix, Please let me know at the issues section.
+* The Ingame Benchmark will still show drops in FPS to 25-28 at Saint Denis police chase part.
 * Setting can also be used for systems with similar specs like Acer Nitro.  
 * I would recommend to keep the Vsync to half. Reasons:  
   * Enabling Half Vsync gives a stable 30FPS which is pretty better than having a variable fps from 30-40.  
@@ -30,28 +27,25 @@
 * Increased the settings one at a time to find the sweet spot.   
 * Some Settings Doesn't change anything visually but lowering them still provides performance still.  
   eg: Water Refraction, High only changes the Visuals very little that you won't even notice, is set to low. 
-* The resolution is 1080p but the resolution scale is set to 4/5(x0.800) or 80%.  
-  This doesn't create any visual quality drop that big. But I increased TAA Sharpening to 100% to compliment this.
-  This step increases the FPS about 7FPS at Saint Denis and 12FPS for other open areas.  
-  You can increase the Resolution scale to 90%, will greatly impact performance for a very small visual quality.  
+* The resolution is 1080p but the resolution scale is set to x0.916.  
+  This doesn't create any visual quality drop that big. But I increased TAA Sharpening to 100% to compliment this.  
+  You can turn off Resolution scale, will greatly impact performance for a very small visual quality.  
 * Reflection Quality is LOW as it greatly impacts performance and you dont see any reflective surface ingame anyway other than building windows.
-  This doesn't affect water quality. It is set to High.
+  This doesn't affect water quality. It is set to medium.
 * Everything else that doesn't impact the games visual quality, but takes up GPU performance is set to low or OFF.  
 * set Vsync Half to get a stable 30FPS.  
 
 ### What you can do?
 * You can REDUCE the Following settings for better FPS with reduced quality.
-	* Resolution or Resolution scale. (Visually BAD, but huge performance gain)  
+	* Resolution or Resolution scale. (less than x0.800 is Visually BAD, but huge performance gain)  
 	* Texture Quality to High. (Visually OK, very little performance gain)  
-	* SSAO (Visually BAD, Very little performance gain)  
-	* Tessellation (Visually BAD, Very little performance gain)  
+	* SSAO/Shadow (Visually BAD, Very little performance gain)    
 * You can INCREASE the following settings for a little performance impact (Only do this if you are overclocking):
 	* Water Reflection : High (5FPS lost, but doesn't matter in forrest as there is 40+ FPS and in city there is no huge water)
-	* SSAO : High/Ultra (Min Fps lost, but doesn't have any noticable visual change)
-	* Anisotrphic Filtering : x16 (Min Fps lost, but doesn't have any noticable visual change)
+	* Anisotrphic Filtering : x16 (Min Fps lost, but doesn't have any big noticable visual change)
 	* Soft Shadows : Medium/High (Personal preference, as it makes the shadows too blurry and low quality. Affect 3FPS.) 
-	* Resolution Scale : Off/90% (high FPS impact but for only good visual clarity)  
-	  * Other best option is to set resolution scale to 80% and increasing Radeon Sharpening to 100% in Radeon Settings (No Performance impact but visually good).
+	* Resolution Scale : Off (high FPS impact but for only good visual clarity)  
+	  * Other best option is to set Radeon Sharpening to 100% in Radeon Settings (No Performance impact but visually good).
 
 ### Other Settings 
 * In Radeon settings (update to the latest), change this following settings:
