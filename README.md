@@ -27,7 +27,7 @@
 * Increased the settings one at a time to find the sweet spot.   
 * Some Settings Doesn't change anything visually but lowering them still provides performance still.  
   eg: Water Refraction, High only changes the Visuals very little that you won't even notice, is set to low. 
-* The resolution is 1080p but the resolution scale is set to x0.916.  
+* The resolution is 1080p but the resolution scale is set to x0.900.  
   This doesn't create any visual quality drop that big. But I increased TAA Sharpening to 100% to compliment this.  
   You can turn off Resolution scale, will greatly impact performance for a very small visual quality.  
 * Reflection Quality is LOW as it greatly impacts performance and you dont see any reflective surface ingame anyway other than building windows.
