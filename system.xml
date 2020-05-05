@@ -2,14 +2,14 @@
 
 <rage__fwuiSystemSettingsCollection>
   <version value="37" />
-  <configSource>kSettingsConfig_Safe</configSource>
+  <configSource>kSettingsConfig_Auto</configSource>
   <graphics>
     <tessellation>kSettingLevel_Ultra</tessellation>
     <shadowQuality>kSettingLevel_High</shadowQuality>
     <farShadowQuality>kSettingLevel_High</farShadowQuality>
     <reflectionQuality>kSettingLevel_Low</reflectionQuality>
     <mirrorQuality>kSettingLevel_High</mirrorQuality>
-    <ssao>kSettingLevel_Medium</ssao>
+    <ssao>kSettingLevel_Ultra</ssao>
     <textureQuality>kSettingLevel_Ultra</textureQuality>
     <particleQuality>kSettingLevel_Ultra</particleQuality>
     <waterQuality>kSettingLevel_Custom</waterQuality>
@@ -20,38 +20,38 @@
     <taa>kSettingLevel_Medium</taa>
     <fxaaEnabled value="false" />
     <msaa value="0" />
-    <graphicsQualityPreset value="0.000000" />
+    <graphicsQualityPreset value="0.500000" />
   </graphics>
   <advancedGraphics>
-    <API>kSettingAPI_DX12</API>
+    <API>kSettingAPI_Vulkan</API>
     <locked value="false" />
     <asyncComputeEnabled value="false" />
     <transferQueuesEnabled value="true" />
-    <shadowSoftShadows>kSettingLevel_Low</shadowSoftShadows>
+    <shadowSoftShadows>kSettingLevel_High</shadowSoftShadows>
     <motionBlur value="false" />
     <motionBlurLimit value="16.000000" />
-    <particleLightingQuality>kSettingLevel_High</particleLightingQuality>
+    <particleLightingQuality>kSettingLevel_Medium</particleLightingQuality>
     <waterReflectionSSR value="true" />
     <waterRefractionQuality>kSettingLevel_Medium</waterRefractionQuality>
     <waterReflectionQuality>kSettingLevel_Medium</waterReflectionQuality>
     <waterSimulationQuality value="2" />
     <waterLightingQuality>kSettingLevel_High</waterLightingQuality>
-    <furDisplayQuality>kSettingLevel_Medium</furDisplayQuality>
+    <furDisplayQuality>kSettingLevel_High</furDisplayQuality>
     <maxTexUpgradesPerFrame value="5" />
-    <shadowGrassShadows>kSettingLevel_Low</shadowGrassShadows>
+    <shadowGrassShadows>kSettingLevel_Medium</shadowGrassShadows>
     <shadowParticleShadows value="false" />
     <shadowLongShadows value="true" />
     <directionalShadowsAlpha value="false" />
     <worldHeightShadowQuality value="0.660000" />
     <directionalScreenSpaceShadowQuality value="0.660000" />
     <ambientMaskVolumesHighPrecision value="false" />
-    <scatteringVolumeQuality>kSettingLevel_Low</scatteringVolumeQuality>
-    <volumetricsRaymarchQuality>kSettingLevel_Low</volumetricsRaymarchQuality>
-    <volumetricsLightingQuality>kSettingLevel_Medium</volumetricsLightingQuality>
+    <scatteringVolumeQuality>kSettingLevel_Medium</scatteringVolumeQuality>
+    <volumetricsRaymarchQuality>kSettingLevel_Medium</volumetricsRaymarchQuality>
+    <volumetricsLightingQuality>kSettingLevel_High</volumetricsLightingQuality>
     <volumetricsRaymarchResolutionUnclamped value="true" />
     <terrainShadowQuality>kSettingLevel_High</terrainShadowQuality>
     <damageModelsDisabled value="false" />
-    <decalQuality>kSettingLevel_Medium</decalQuality>
+    <decalQuality>kSettingLevel_Ultra</decalQuality>
     <ssaoFullScreenEnabled value="false" />
     <ssaoType value="0" />
     <ssdoSampleCount value="4" />
@@ -62,13 +62,13 @@
     <snowGlints value="true" />
     <POMQuality>kSettingLevel_Ultra</POMQuality>
     <probeRelightEveryFrame value="false" />
-    <scalingMode>kSettingScale_Mode4o5</scalingMode>
+    <scalingMode>kSettingScale_Mode9o10</scalingMode>
     <reflectionMSAA value="0" />
     <lodScale value="0.900000" />
     <grassLod value="1.250000" />
     <pedLodBias value="0.000000" />
     <vehicleLodBias value="0.000000" />
-    <sharpenIntensity value="0.500000" />
+    <sharpenIntensity value="0.000000" />
     <treeQuality>kSettingLevel_High</treeQuality>
     <deepsurfaceQuality>kSettingLevel_Low</deepsurfaceQuality>
     <treeTessellationEnabled value="false" />
@@ -76,17 +76,17 @@
   <video>
     <adapterIndex value="0" />
     <outputIndex value="0" />
-    <resolutionIndex value="5" />
+    <resolutionIndex value="0" />
     <screenWidth value="1920" />
     <screenHeight value="1080" />
-    <refreshRateIndex value="1" />
+    <refreshRateIndex value="0" />
     <refreshRateNumerator value="60" />
     <refreshRateDenominator value="1" />
     <windowed value="0" />
-    <vSync value="2" />
+    <vSync value="0" />
     <tripleBuffered value="false" />
     <pauseOnFocusLoss value="false" />
     <constrainMousePointer value="false" />
   </video>
-  <videoCardDescription>Radeon RX 560X</videoCardDescription>
+  <videoCardDescription>AMD Radeon RX 560X</videoCardDescription>
 </rage__fwuiSystemSettingsCollection>
